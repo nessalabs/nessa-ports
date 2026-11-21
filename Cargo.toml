@@ -1,0 +1,15 @@
+[package]
+name = "nessa-ports"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+publish = false
+description = "Headless workspace listener inventory primitives."
+
+[lints.clippy]
+dbg_macro = "warn"
+todo = "warn"
+unimplemented = "warn"
+disallowed_methods = "allow"
+let_underscore_future = "warn"
